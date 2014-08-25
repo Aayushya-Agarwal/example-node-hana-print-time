@@ -29,6 +29,6 @@ http.createServer(function (req, res) {
             res.end(JSON.stringify(rows));
         });
     });
-}).listen(2000);
+}).listen(8080);
 
 console.log("App 'example-node-hana-print-time' is listening! Now, just open the app debug endpoint in HANA.IO!");
