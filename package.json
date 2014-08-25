@@ -1,7 +1,10 @@
 {
-    "name": "hana-nodejs-hello-world",
+    "name": "example-node-hana-print-time ",
     "version": "1.0.0",
     "dependencies": {
         "hdb": "0.3.1"
+    },
+    "scripts": {
+        "start": "node app.js"
     }
 }
